@@ -4,18 +4,84 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website - Aman Kumar</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="wrapper">
       <div class="container">
         <div class="navbar">
+          <div class="logo-container">
+            <img src="./images/myAsset/NavLogo.jpg" alt="logo" class="logo" />
+            <div class="logo-text">man Kumar</div>
+          </div>
+          <div class="nav-items">
+            <div><a href="#projects">Projects</a></div>
+            <div><a href="#skills">Skills</a></div>
+            <div><a href="#contactme">Contact Me</a></div>
+          </div>
+        </div>
 
-<div class="logo-container">
-    <img src="./images/myAsset/NavLogo.jpg" alt="">
-</div>
+        <div class="hero-section">
+          <div class="faded-text absolute">Aman Kumar</div>
+          <div class="hero-section-left">
+            <div class="hero-section-heading">Hi! Aman Kumar</div>
 
+            <div class="hero-section-heading hero-section-sub-heading">
+              I am a <span class="role"></span>
+            </div>
+
+            <div class="hero-section-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              corrupti aut omnis. Quia id sapiente eum corporis ex. Accusantium
+              minus dolorum officiis
+            </div>
+
+            <div class="btn-pink" id="btn">Hire me</div>
+          </div>
+
+          <div class="hero-section-right">
+            <div class="absolute icons icon-dots">
+              <img src="./images/myAsset/dots.png" alt="dots" />
+            </div>
+            <div class="absolute icons icon-cube">
+              <img src="./images/myAsset/cube.png" alt="cube" />
+            </div>
+            <div class="absolute icons icon-circle">
+              <img src="./images/myAsset/circle.png" alt="circle" />
+            </div>
+            <div class="absolute icons icon-zigzag">
+              <img src="./images/myAsset/zigzags.png" alt="zigzags" />
+            </div>
+            <div class="absolute icons icon-plus">
+              <img src="./images/myAsset/plus.png" alt="plus" />
+            </div>
+            <div class="user-image">
+              <img src="./images/myAsset/myImage.jpg" alt="myImages" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var typeData = new Typed(".role", {
+        strings: [
+          "Full Stack Developer",
+          "Web Developer",
+          "UI-UX Designer",
+          "Backend Developer",
+          "Coder",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
   </body>
 </html>
