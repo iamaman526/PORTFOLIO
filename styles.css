@@ -41,7 +41,7 @@
 }
 
 .logo-text{
-    margin-left:-1.2rem;
+    margin-left:-1.0rem;
     font-size:28px;
 }
 
@@ -549,7 +549,7 @@ a{
   font-style:bold;
   color:rgb(231,231,231);
   bottom:-34.5%;
-  right:-25%;
+  right:-8%;
   user-select:none;
   overflow-y:hidden;
 }
