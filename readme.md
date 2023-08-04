@@ -1,6 +1,6 @@
 # My Portfolio
 
-![Portfolio](https://poetic-tapioca-ff52e5.netlify.app/)
+[Portfolio](https://poetic-tapioca-ff52e5.netlify.app/)
 
 Welcome to my portfolio website! This is where I showcase my projects, skills, and experiences as a web developer. Feel free to explore and learn more about me and my work.
 
